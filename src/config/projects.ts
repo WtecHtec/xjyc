@@ -1,6 +1,6 @@
 // projects
 export const projectHeadLine = "What I've done and what I'm doing."
-export const projectIntro = "I've worked on a variety of projects, from simple websites to complex web applications. And many of them are open-source. Here are a few of my favorites."
+export const projectIntro = "其实只是有点喜欢制作一些自己感兴趣的垃圾东西而已."
 
 export type ProjectItemType = {
     name: string
@@ -19,130 +19,140 @@ export type ProjectItemType = {
   // projects 
   export const projects: Array<ProjectItemType> = [
     {
-      name: 'GitHub Cards',
+      name: 'WhisperKeyboard',
       description:
-        'Showcase your GitHub contributions into stunning visual cards.',
-      link: { href: 'github.cards', label: 'GitHub Cards' },
-      category: ['Website'],
-      techStack: ['Next.js', 'TailwindCSS', 'Shadcn/UI'],
-      tags: ['Visual Cards', 'GitHub Contribution Cards']
+        '一款基于Whisper的Ai语音输入法',
+      link: { href: '//whisperkeyboard.app', label: 'whisperkeyboard' },
+      category: ['Mac'],
+      techStack: ['Swift'],
+      tags: ['Whisper', 'Ai语音']
     },
     {
-      name: 'AI Best Tools',
+      name: 'Switch Mate Pro',
       description:
-        'Find the best AI tools in AIBest.tools',
-      link: { href: 'aibest.tools', label: 'AI Best Tools' },
-      logo: '/images/icon/aibesttools.png',
-      category: ['Website'],
-      techStack: ['Next.js', 'TailwindCSS', 'Shadcn/UI'],
-      tags: ['AI', 'Tools Directory']
+        '管理Mac输入法的应用',
+      link: { href: '//apps.apple.com/us/app/switch-mate-pro/id6723865383', label: 'Switch Mate Pro' },
+      logo: '/images/icon/switchmetaicon.png',
+      category: ['Mac'],
+      techStack: ['Swift'],
+      tags: ['输入法', '自动切换']
     },
     {
-      name: 'Best Directories',
+      name: 'Sparkle Easy',
       description:
-        'Your ultimate directory of directories.',
-      link: { href: 'bestdirectories.org', label: 'Best Directories' },
-      logo: '/images/icon/bestdirectories.png',
-      category: ['Website'],
-      techStack: ['Next.js', 'TailwindCSS', 'Shadcn/UI'],
-      tags: ['Directory of Directories']
+        '获取Macos更新框架Sparkle基本签名信息',
+      link: { href: '//sparkleeasy.pages.dev', label: 'Sparkle Easy' },
+      logo: '/images/icon/sparkleicon.png',
+      category: ['Mac'],
+      techStack: ['Electron', 'Node'],
+      tags: ['Sparkle', 'Tools']
     },
     {
-      name: 'User Growth',
+      name: '情绪宣泄瓶',
       description:
-        'Boost Your business growth with UserGrowth.link',
-      link: { href: 'usergrowth.link', label: 'User Growth' },
-      logo: '/images/icon/usergrowth.ico',
-      category: ['Website'],
-      techStack: ['Next.js', 'TailwindCSS', 'Shadcn/UI'],
-      tags: ['User Growth', 'Marketing', 'SEO']
+        '只是一款听森林声音的微信小程序',
+      link: { href: '/images/icon/wx_qr_qingxu.jpg', label: '情绪宣泄瓶' },
+      logo: '/images/icon/qingxuicon.png',
+      category: ['微信小程序'],
+      techStack: ['微信小程序'],
+      tags: ['情绪', '休息']
     },
     {
-      name: 'Dev Toolset',
+      name: '随便用用Lite',
       description:
-        'Open-source database-free tools directory.',
-      link: { href: 'devtoolset.net', label: 'Dev Toolset' },
-      logo: '/images/icon/devtoolset.png',
-      category: ['Website'],
-      techStack: ['Next.js', 'TailwindCSS', 'Shadcn/UI'],
-      tags: ['Open Source', 'Database-Free', 'Tools Directory']
+        '收集一些有趣或实用工具的微信小程序',
+      link: { href: '/images/icon/wx_qr_suibian.jpg', label: '随便用用Lite' },
+      logo: '/images/icon/suibianicon.png',
+      category: ['微信小程序'],
+      techStack: ['微信小程序'],
+      tags: ['助手', '有趣']
     },
     {
-      name: 'Domain Score',
+      name: '放大镜录屏',
       description:
-        'Ultimate AI-Powered tool for domain scoring and evaluation',
-      link: { href: 'domainscore.ai', label: 'Domain Score' },
-      logo: '/images/icon/domainscore.png',
-      category: ['Website'],
-      techStack: ['Next.js', 'TailwindCSS', 'Shadcn/UI'],
-      tags: ['Domain', 'AI', 'SEO']
+        '可以设置放大录屏区域的chrome录屏插件.',
+      link: { href: '//chromewebstore.google.com/detail/%E6%94%BE%E5%A4%A7%E9%95%9C%E5%BD%95%E5%B1%8F/oamckfgecgfenpchklfhelhnngmhdnma?authuser=0&hl=zh-CN', label: 'chrome' },
+      logo: '/images/icon/fangdaicon.png',
+      category: ['Tools'],
+      techStack: ['Javascript', 'Chrome', 'React'],
+      tags: ['录屏', '插件']
     },
     {
-      name: 'MagicBox Tools',
+      name: '即时设计插件',
       description:
-        'Find the best AI tools in MagicBox.tools',
-      link: { href: 'magicbox.tools', label: 'MagicBox Tools' },
-      logo: '/images/icon/magicbox.png',
-      category: ['Website'],
-      techStack: ['Next.js', 'TailwindCSS', 'Shadcn/UI'],
-      tags: ['AI', 'Tools Directory']
+        '如果你正在使用即时设计做设计稿,希望可以帮助你.',
+      link: { href: '//js.design/community?category=personHome&id=6407e807c1bb4e25e60f1eb8', label: 'js.design' },
+      logo: '/images/icon/jishiicon.ico',
+      category: ['Tools'],
+      techStack: ['Javascript', 'React'],
+      tags: ['Design']
     },
+    // {
+    //   name: 'MagicBox Tools',
+    //   description:
+    //     'Find the best AI tools in MagicBox.tools',
+    //   link: { href: 'magicbox.tools', label: 'MagicBox Tools' },
+    //   logo: '/images/icon/magicbox.png',
+    //   category: ['Website'],
+    //   techStack: ['Next.js', 'TailwindCSS', 'Shadcn/UI'],
+    //   tags: ['AI', 'Tools Directory']
+    // },
   ]
   
   export const githubProjects: Array<ProjectItemType> = [
     {
-      name: 'Devtoolset',
-      description: 'Open-source & database-free developer tools navigator / 开源无数据库配置的开发者工具导航站',
-      link: { href: 'github.com/iAmCorey/devtoolset', label: 'Devtoolset' },
-      gitStars: 203,
-      gitForks: 67
+      name: 'WorkNotes',
+      description: '工作笔记开源库,包含Java\\Golang\\Node\\Swfit工具类',
+      link: { href: '//github.com/WtecHtec/WorkNotes', label: 'WorkNotes' },
+      // gitStars: 1,
+      // gitForks: 1
     },
     {
-      name: 'Corey Chiu Portfolio Template',
+      name: 'pcapp-go-wails-react-ts',
       description:
-        'portfolio template by corey chiu',
-      link: { href: 'github.com/iAmCorey/coreychiu-portfolio-template', label: 'Corey Chiu Portfolio Template' },
-      gitStars: 229,
-      gitForks: 30
+        '学习Golang开发期间折腾的微信自动化桌面应用[wails框架]',
+      link: { href: '//github.com/WtecHtec/pcapp-go-wails-react-ts', label: 'pcapp-go-wails-react-ts' },
+      // gitStars: 1,
+      // gitForks: 1
     },
     {
-      name: 'Chrome Extension Plasmo Template',
+      name: 'electron-jest',
       description:
-        'A chrome extension template using plasmo, tailwind css, shadcn/ui',
-      link: { href: 'github.com/iAmCorey/chrome-extension-plasmo-template', label: 'Chrome Extension Plasmo Template' },
-      gitStars: 54,
-      gitForks: 10
+        '可视化操作浏览器编排工作流程的桌面应用',
+      link: { href: '//github.com/WtecHtec/electron-jest', label: 'electron-jest' },
+      // gitStars: 1,
+      // gitForks: 1
     },
     {
-      name: 'Awesome Indie Hacker Tools',
+      name: 'wtechtec-wx-chart',
       description:
-        '独立开发/出海开发相关技术栈及工具收录 / Find the best tools for indie hackers here',
-      link: { href: 'github.com/iAmCorey/awesome-indie-hacker-tools', label: 'Awesome Indie Hacker Tools' },
-      gitStars: 815,
-      gitForks: 69
+        '基于canvas在微信小程序绘制数据图表的组件库',
+      link: { href: '//github.com/WtecHtec/wtechtec-wx-chart', label: 'wtechtec-wx-chart' },
+      // gitStars: 1,
+      // gitForks: 1
     },
     {
-      name: 'Awesome AI Directory',
+      name: 'VideoSpeakMacOs',
       description:
-        'AI资源工具导航站收录 / Find all the best AI directories',
-      link: { href: 'github.com/iAmCorey/awesome-ai-directory', label: 'Awesome AI Directory' },
-      gitStars: 40,
-      gitForks: 7
+        '读取视频帧获取视频字幕、拼接视频字幕的Macos应用',
+      link: { href: '//github.com/WtecHtec/VideoSpeakMacOs', label: 'VideoSpeakMacOs' },
+      // gitStars: 1,
+      // gitForks: 1
     },
     {
-      name: 'Producthunt Daily Bot',
+      name: 'NanoAutoWeb',
       description:
-        'A bot getting product hunt daily top products',
-      link: { href: 'github.com/iAmCorey/producthunt-daily-bot', label: 'Producthunt Daily Bot' },
-      gitStars: 3,
-      gitForks: 3
+        '探索LLM操作系统的应用',
+      link: { href: '//github.com/WtecHtec/NanoAutoWeb', label: 'NanoAutoWeb' },
+      // gitStars: 1,
+      // gitForks: 1
     },
     {
-      name: 'Cantonese Echoes',
+      name: 'electron-react-record',
       description:
-        'Cantonese Echoes / 粵語殘片',
-      link: { href: 'github.com/iAmCorey/Cantonese-Echoes', label: 'Cantonese Echoes' },
-      gitStars: 1
+        '视角跟随鼠标移动、放大点击区域的录制应用',
+      link: { href: '//github.com/WtecHtec/electron-react-record', label: 'electron-react-record' },
+      // gitStars: 1
     },
   ]
   

@@ -1,30 +1,29 @@
 export * from './projects'
-export * from './friends'
-export * from './changelog'
-export * from './education'
-export * from './career'
-export * from './activity'
+// export * from './friends'
+// export * from './changelog'
+// export * from './education'
+// export * from './career'
+// export * from './activity'
 
 
 // personal info
-export const name = 'Corey Chiu'
-export const headline = 'Software engineer, Full-Stack web developer, and indie hacker.'
-export const introduction = 'I’m Corey, a software engineer based in Shenzhen, China. I like coding, and building interesting things'
-export const email = 'iamcoreychiu@gmail.com'
-export const githubUsername = 'iamcorey'
+export const name = '虚惊一场。'
+export const headline = '懂点其他端技术的前端工程师.'
+export const introduction = 'I’m 虚惊一场, 一名来自山水甲天下的前端开发. I like coding, and building interesting things'
+export const email = 'wtechtec@gmail.com'
+export const githubUsername = 'wtechtec'
 
 // about page
-export const aboutMeHeadline = "I'm Corey Chiu, a software engineer based in Shenzhen, China."
+export const aboutMeHeadline = "I'm 虚惊一场, 一名来自山水甲天下的前端开发."
 export const aboutParagraphs = [
-  "I love coding. I learned programming when I in college. I wrote my first program in Java when I was 18.",
-  "I have a lot of hobbies, such as travelling, photography, watching movies, music and so on.",
-  "I'm working as a software develop engineer in Shenzhen, China now. And I'm building a lot of side projects in my spare time."
+  "其实啥也不想干",
+  "但是又只不过有点喜欢制作一些自己感兴趣的垃圾东西而已"
 ]
 
 
 // blog
 export const blogHeadLine = "What I've thinking about."
-export const blogIntro = "I've written something about AI, programming and life."
+export const blogIntro = "记录一些乱七八糟"
 
 
 // social links
@@ -36,62 +35,71 @@ export type SocialLinkType = {
 }
 
 export const socialLinks: Array<SocialLinkType> = [
-  {
-    name: 'X',
-    icon: 'x',
-    href: 'https://x.com/realcoreychiu'
-  },
-  {
-    name: 'Bsky',
-    icon: 'bsky',
-    href: 'https://bsky.app/profile/coreychiu.com'
-  },
+  // {
+  //   name: 'X',
+  //   icon: 'x',
+  //   href: 'https://x.com/realcoreychiu'
+  // },
+  // {
+  //   name: 'Bsky',
+  //   icon: 'bsky',
+  //   href: 'https://bsky.app/profile/coreychiu.com'
+  // },
   {
     name: 'Jike',
     icon: 'pill',
-    href: 'https://okjk.co/P7c1zU'
+    href: 'https://web.okjike.com/u/006e2805-aaa1-4a27-903f-8905ddf21911'
   },
   {
     name: 'Github',
     icon: 'github',
-    href: 'https://github.com/iamcorey'
+    href: 'https://github.com/wtechtec'
   },
   {
     name: 'Wechat',
     icon: 'wechat',
-    href: 'https://mp.weixin.qq.com/s/DxnRgqNfgzXIhqj6w_x0dQ'
+    href: '/images/icon/wx_qr.png'
   },
-  {
-    name: 'Ko-fi',
-    icon: 'coffee',
-    href: 'https://ko-fi.com/coreychiu'
-  }
+  // {
+  //   name: 'Ko-fi',
+  //   icon: 'coffee',
+  //   href: 'https://ko-fi.com/coreychiu'
+  // }
 ]
 
 // https://simpleicons.org/
 export const techIcons = [
-  "typescript",
+  // "typescript",
   "javascript",
-  "supabase",
-  "cloudflare",
+  // "supabase",
+  // "cloudflare",
   "java",
-  "oracle",
+  // "oracle",
   "mysql",
   "react",
-  "nodedotjs",
-  "nextdotjs",
-  "prisma",
-  "postgresql",
+  // "nodedotjs",
+  // "nextdotjs",
+  // "prisma",
+  // "postgresql",
   "nginx",
   "vercel",
   "docker",
   "git",
   "github",
-  "visualstudiocode",
-  "androidstudio",
-  "ios",
+  // "visualstudiocode",
+  // "androidstudio",
+  // "ios",
+  "android",
   "apple",
-  "wechat"
+  "wechat",
+  "swift",
+  "goland",
+  "googlechrome",
+  "nodedotjs",
+  "python",
+  "threedotjs",
+  "macos",
+  "cplusplus"
 ];
 
 

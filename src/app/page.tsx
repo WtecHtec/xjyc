@@ -96,14 +96,14 @@ export default async function Home() {
 
           {/* right column */}
           <div className="space-y-10 lg:pl-16 xl:pl-24">
-            <Career />
-            <Education />
+            {/* <Career />
+            <Education /> */}
 
             {/* <Newsletter /> */}
             <Feed />
           </div>
         </div>
-        <div className="mx-auto flex flex-col max-w-xl gap-6 lg:max-w-none my-4 py-8 border-t border-muted">
+        {/* <div className="mx-auto flex flex-col max-w-xl gap-6 lg:max-w-none my-4 py-8 border-t border-muted">
           <h2 className="text-3xl font-semibold tracking-tight md:text-5xl opacity-80">
             {activityHeadLine}
           </h2>
@@ -111,7 +111,7 @@ export default async function Home() {
             {activityIntro}
           </p>
           <TweetGrid />
-        </div>
+        </div> */}
       </Container>
     </>
   )

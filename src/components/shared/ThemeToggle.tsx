@@ -11,7 +11,7 @@ export function ThemeToggle() {
 
   const toggleTheme = () => {
     // 直接在light和dark之间切换，跳过system
-    const newTheme = resolvedTheme === 'dark' ? 'light' : 'dark'
+    const newTheme = 'dark'
     // console.log('切换主题:', newTheme)
     setTheme(newTheme)
   }

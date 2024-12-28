@@ -19,4 +19,5 @@ export type CareerItemType = {
       start: '2020',
       end: 'Present'
     },
+    
   ]
