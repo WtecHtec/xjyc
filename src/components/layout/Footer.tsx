@@ -41,11 +41,19 @@ export function Footer() {
                 <div className='flex flex-row justify-end items-center gap-2'>
                   <p className="text-sm text-muted-foreground">
                     &copy; {new Date().getFullYear()} {name}. All rights reserved.
-                  </p>
+                  </p>          
                   <ThemeToggle />
                 </div>
                 <SocialLinks className='mt-0'/>
                 <VisitData />
+                <p style={{display: "flex"}}>
+                    <a style={{display: "flex"}}  href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802026719" 
+                    target="_blank" rel="nofollow" className="jj-link" data-v-65b50b51="" data-v-0bb7cad4="">
+                      <img src="//lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/img/police.d0289dc.png" alt="police" 
+                      style={{ verticalAlign: "middle", height: "20px" }} />
+                        京公网安备******号
+                      </a>
+                  </p>
               </div>
             </div>
           </ContainerInner>
