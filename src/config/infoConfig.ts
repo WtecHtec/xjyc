@@ -73,33 +73,58 @@ export const techIcons = [
   "javascript",
   // "supabase",
   // "cloudflare",
+  "vuedotjs",
+  "react",
+
+  "threedotjs",
+  "d3",
+
+
+  "nodedotjs",
+  "python",
   "java",
+  "swift",
+  "goland",
+
+ 
   // "oracle",
   "mysql",
-  "react",
+
+  "qq",
+  "wechat",
+  "android",
+  "chromewebstore",
+  "macos",
+  "ios",
+  "electron",
   // "nodedotjs",
   // "nextdotjs",
   // "prisma",
   // "postgresql",
   "nginx",
-  "vercel",
+  // "vercel",
   "docker",
+  "pm2",
+  "npm",
+  "vite",
+  "webpack",
+
   "git",
   "github",
   // "visualstudiocode",
   // "androidstudio",
   // "ios",
-  "android",
-  "apple",
-  "wechat",
-  "swift",
-  "goland",
-  "googlechrome",
-  "nodedotjs",
-  "python",
-  "threedotjs",
-  "macos",
-  "cplusplus"
+ 
+  // "apple",
+ 
+  
+ 
+ 
+
+  
+  
+ 
+  // "cplusplus"
 ];
 
 
