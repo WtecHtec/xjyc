@@ -25,7 +25,7 @@ function ThemeWatcher() {
       // if (resolvedTheme === systemTheme) {
       //   setTheme('system')
       // }
-      setTheme("dark")
+      setTheme("light")
     }
 
     onMediaChange()
