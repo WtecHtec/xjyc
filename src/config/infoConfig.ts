@@ -16,8 +16,7 @@ export const githubUsername = 'wtechtec'
 // about page
 export const aboutMeHeadline = "I'm 虚惊一场, 一名来自山水甲天下的前端开发."
 export const aboutParagraphs = [
-  "其实啥也不想干",
-  "但是又只不过有点喜欢制作一些自己感兴趣的垃圾东西而已"
+  "只是有点喜欢制作一些自己感兴趣的垃圾东西而已"
 ]
 
 
