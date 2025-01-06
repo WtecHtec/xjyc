@@ -51,7 +51,7 @@ export function Footer() {
                     target="_blank" rel="nofollow" className="jj-link" data-v-65b50b51="" data-v-0bb7cad4="">
                       <img src="//lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/img/police.d0289dc.png" alt="police" 
                       style={{ verticalAlign: "middle", height: "20px" }} />
-                        京公网安备******号
+                        桂ICP备2025051198号
                       </a>
                   </p>
               </div>
