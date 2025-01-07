@@ -42,7 +42,7 @@ export function Footer() {
                   <p className="text-sm text-muted-foreground">
                     &copy; {new Date().getFullYear()} {name}. All rights reserved.
                   </p>          
-                  <ThemeToggle />
+                  {/* <ThemeToggle /> */}
                 </div>
                 <SocialLinks className='mt-0'/>
                 {/* <VisitData /> */}
