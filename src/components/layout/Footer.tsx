@@ -45,7 +45,7 @@ export function Footer() {
                   <ThemeToggle />
                 </div>
                 <SocialLinks className='mt-0'/>
-                <VisitData />
+                {/* <VisitData /> */}
                 <p style={{display: "flex"}}>
                     <a style={{display: "flex"}}  href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802026719" 
                     target="_blank" rel="nofollow" className="jj-link" data-v-65b50b51="" data-v-0bb7cad4="">

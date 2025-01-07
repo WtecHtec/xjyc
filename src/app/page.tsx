@@ -21,7 +21,7 @@ import { TweetGrid } from "@/components/home/TweetGrid";
 
 
 export default async function Home() {
-  let blogList = (await getAllBlogs()).slice(0, 4)
+  let blogList = (await getAllBlogs()).slice(0, 3)
   // console.log('blogList: ', blogList)
 
   return (
