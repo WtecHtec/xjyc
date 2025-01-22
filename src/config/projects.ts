@@ -41,7 +41,7 @@ export type ProjectItemType = {
       name: 'Sparkle Easy',
       description:
         '获取Macos更新框架Sparkle基本签名信息',
-      link: { href: '//sparkleeasy.pages.dev', label: 'Sparkle Easy' },
+      link: { href: '//sp.xujingyichang.top', label: 'Sparkle Easy' },
       logo: '/images/icon/sparkleicon.png',
       category: ['Mac'],
       techStack: ['Electron', 'Node'],
@@ -51,11 +51,21 @@ export type ProjectItemType = {
       name: 'Video Zoom',
       description:
         '视频编辑、缩放指定区域',
-      link: { href: ' //capcut.xujingyichang.top/', label: 'Sparkle Easy' },
+      link: { href: ' //capcut.xujingyichang.top/', label: 'Video Zoom' },
       logo: '/images/icon/capcut.png',
       category: ['Web'],
       techStack: ['React', 'Canvas', 'Video'],
       tags: ['Video', 'Capcut', 'Tools']
+    },
+    {
+      name: 'Flow Auto',
+      description:
+        '可视化的chrome浏览器自动化工具',
+      link: { href: ' //c flowaoto.xujingyichang.top', label: 'Flow Auto' },
+      logo: '/images/icon/auto.png',
+      category: ['Web'],
+      techStack: ['React', 'Electron', 'Flow'],
+      tags: ['Flow', 'Auto', 'Tools']
     },
     {
       name: '情绪宣泄瓶',
