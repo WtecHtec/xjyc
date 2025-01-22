@@ -61,7 +61,7 @@ export type ProjectItemType = {
       name: 'Flow Auto',
       description:
         '可视化的chrome浏览器自动化工具',
-      link: { href: ' //c flowaoto.xujingyichang.top', label: 'Flow Auto' },
+      link: { href: ' //flowaoto.xujingyichang.top', label: 'Flow Auto' },
       logo: '/images/icon/auto.png',
       category: ['Web'],
       techStack: ['React', 'Electron', 'Flow'],
