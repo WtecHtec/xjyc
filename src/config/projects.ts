@@ -48,6 +48,16 @@ export type ProjectItemType = {
       tags: ['Sparkle', 'Tools']
     },
     {
+      name: 'Video Zoom',
+      description:
+        '视频编辑、缩放指定区域',
+      link: { href: ' //capcut.xujingyichang.top/', label: 'Sparkle Easy' },
+      logo: '/images/icon/capcut.png',
+      category: ['Web'],
+      techStack: ['React', 'Canvas', 'Video'],
+      tags: ['Video', 'Capcut', 'Tools']
+    },
+    {
       name: '情绪宣泄瓶',
       description:
         '只是一款听森林声音的微信小程序',
