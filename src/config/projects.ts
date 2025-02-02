@@ -1,6 +1,6 @@
 // projects
 export const projectHeadLine = "What I've done and what I'm doing."
-export const projectIntro = "其实只是有点喜欢制作一些自己感兴趣的垃圾东西而已."
+export const projectIntro = "努力执行，将想法实现"
 
 export type ProjectItemType = {
     name: string
