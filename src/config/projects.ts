@@ -107,6 +107,17 @@ export type ProjectItemType = {
       techStack: ['Javascript', 'React'],
       tags: ['Design']
     },
+    {
+      name: 'Chrome插件',
+      description:
+        'chrome插件集合.',
+      link: { href: '//chromewebstore.google.com/search/sr7?hl=zh-CN&authuser=0', label: 'chromewebstore.google.com' },
+      // logo: '/images/icon/jishiicon.ico',
+      category: ['Tools'],
+      techStack: ['Javascript', 'React'],
+      tags: ['Chrome', '插件']
+    },
+    
     // {
     //   name: 'MagicBox Tools',
     //   description:
