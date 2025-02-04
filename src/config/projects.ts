@@ -38,6 +38,16 @@ export type ProjectItemType = {
       tags: ['输入法', '自动切换']
     },
     {
+      name: '即时设计插件',
+      description:
+        '如果你正在使用即时设计做设计稿,希望可以帮助你.',
+      link: { href: '//js.design/community?category=personHome&id=6407e807c1bb4e25e60f1eb8', label: 'js.design' },
+      logo: '/images/icon/jishiicon.ico',
+      category: ['Tools'],
+      techStack: ['Javascript', 'React'],
+      tags: ['Design']
+    },
+    {
       name: 'Sparkle Easy',
       description:
         '获取Macos更新框架Sparkle基本签名信息',
@@ -68,6 +78,28 @@ export type ProjectItemType = {
       tags: ['Flow', 'Auto', 'Tools']
     },
     {
+      name: '放大镜录屏',
+      description:
+        '可以设置放大录屏区域的chrome录屏插件.',
+      link: { href: '//chromewebstore.google.com/detail/%E6%94%BE%E5%A4%A7%E9%95%9C%E5%BD%95%E5%B1%8F/oamckfgecgfenpchklfhelhnngmhdnma?authuser=0&hl=zh-CN', label: 'chrome' },
+      logo: '/images/icon/fangdaicon.png',
+      category: ['Tools'],
+      techStack: ['Javascript', 'Chrome', 'React'],
+      tags: ['录屏', '插件']
+    },
+   
+    {
+      name: 'Chrome插件',
+      description:
+        'chrome插件集合.',
+      link: { href: '//chromewebstore.google.com/search/sr7?hl=zh-CN&authuser=0', label: 'chromewebstore.google.com' },
+      // logo: '/images/icon/jishiicon.ico',
+      category: ['Tools'],
+      techStack: ['Javascript', 'React'],
+      tags: ['Chrome', '插件']
+    },
+    
+    {
       name: '情绪宣泄瓶',
       description:
         '只是一款听森林声音的微信小程序',
@@ -87,36 +119,7 @@ export type ProjectItemType = {
       techStack: ['微信小程序'],
       tags: ['助手', '有趣']
     },
-    {
-      name: '放大镜录屏',
-      description:
-        '可以设置放大录屏区域的chrome录屏插件.',
-      link: { href: '//chromewebstore.google.com/detail/%E6%94%BE%E5%A4%A7%E9%95%9C%E5%BD%95%E5%B1%8F/oamckfgecgfenpchklfhelhnngmhdnma?authuser=0&hl=zh-CN', label: 'chrome' },
-      logo: '/images/icon/fangdaicon.png',
-      category: ['Tools'],
-      techStack: ['Javascript', 'Chrome', 'React'],
-      tags: ['录屏', '插件']
-    },
-    {
-      name: '即时设计插件',
-      description:
-        '如果你正在使用即时设计做设计稿,希望可以帮助你.',
-      link: { href: '//js.design/community?category=personHome&id=6407e807c1bb4e25e60f1eb8', label: 'js.design' },
-      logo: '/images/icon/jishiicon.ico',
-      category: ['Tools'],
-      techStack: ['Javascript', 'React'],
-      tags: ['Design']
-    },
-    {
-      name: 'Chrome插件',
-      description:
-        'chrome插件集合.',
-      link: { href: '//chromewebstore.google.com/search/sr7?hl=zh-CN&authuser=0', label: 'chromewebstore.google.com' },
-      // logo: '/images/icon/jishiicon.ico',
-      category: ['Tools'],
-      techStack: ['Javascript', 'React'],
-      tags: ['Chrome', '插件']
-    },
+   
     
     // {
     //   name: 'MagicBox Tools',
