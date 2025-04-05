@@ -38,6 +38,16 @@ export type ProjectItemType = {
       tags: ['输入法', '自动切换']
     },
     {
+      name: 'ReFormX',
+      description:
+        'ReFormX 是一个基于 React 和 Ant Design 的动态表单解决方案，通过简单的配置即可生成功能强大的表单。',
+      link: { href: 'https://reformx.xujingyichang.top/', label: 'ReFormX' },
+      logo: '/images/icon/reformx.png',
+      category: ['Npm'],
+      techStack: ['react', 'antd'],
+      tags: ['动态表单']
+    },
+    {
       name: '即时设计插件',
       description:
         '如果你正在使用即时设计做设计稿,希望可以帮助你.',
