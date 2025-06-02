@@ -8,21 +8,20 @@ export * from './activity'
 
 // personal info
 export const name = '虚惊一场。'
-export const headline = '懂点其他端技术的前端工程师.'
-export const introduction = 'I’m 虚惊一场, 一名来自桂林的前端开发. I like coding, and building interesting things'
+export const headline = '主要写前端，偶尔也会摸一摸其他端的开发者。'
+export const introduction = '对我来说，代码不仅是工具，更是一种语言——用它来表达、连接、构建、实验，不断把有趣的点子带进真实世界。 '
 export const email = 'wtechtec@gmail.com'
 export const githubUsername = 'wtechtec'
 
 // about page
-export const aboutMeHeadline = "I'm 虚惊一场, 一名来自桂林的前端开发."
+export const aboutMeHeadline = ""
 export const aboutParagraphs = [
   "悦己",
   "爱上本来的自己",
   "阅己",
   "看到见真实的自己",
   "越己",
-  "成为更好的自己",
-  "干就是完事了！"
+  "成为更好的自己"
 ]
 
 

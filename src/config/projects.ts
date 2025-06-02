@@ -1,6 +1,6 @@
 // projects
-export const projectHeadLine = "What I've done and what I'm doing."
-export const projectIntro = "努力执行，将想法实现"
+export const projectHeadLine = "过去。现在。持续前行。"
+export const projectIntro = ""
 
 export type ProjectItemType = {
     name: string
@@ -38,14 +38,46 @@ export type ProjectItemType = {
       tags: ['输入法', '自动切换']
     },
     {
-      name: 'ReFormX',
+      name: 'Flow Auto',
       description:
-        'ReFormX 是一个基于 React 和 Ant Design 的动态表单解决方案，通过简单的配置即可生成功能强大的表单。',
-      link: { href: 'https://reformx.xujingyichang.top/', label: 'ReFormX' },
-      logo: '/images/icon/reformx.png',
-      category: ['Npm'],
-      techStack: ['react', 'antd'],
-      tags: ['动态表单']
+        '可视化的chrome浏览器自动化工具',
+      link: { href: '//flowaoto.xujingyichang.top', label: 'Flow Auto' },
+      logo: '/images/icon/auto.png',
+      category: ['Web'],
+      techStack: ['React', 'Electron', 'Flow'],
+      tags: ['Flow', 'Auto', 'Tools']
+    },
+
+    {
+      name: '生成二维码',
+      description:
+        '生成二维码,支持多种样式\\注入HTML\\背景图片\\文案',
+      link: { href: '//qrcode.xujingyichang.top/', label: 'qrcode' },
+      logo: '/images/icon/qrcode.png',
+      category: ['Web'],
+      techStack: ['React', 'qrcode', 'Flow'],
+      tags: ['QR', 'Tools']
+    },
+  
+    {
+      name: 'NPM包',
+      description:
+        'NPM包集合.',
+      link: { href: 'https://www.npmjs.com/~wtechtec', label: 'www.npmjs.com/~wtechtec' },
+      // logo: '/images/icon/jishiicon.ico',
+      category: ['Tools'],
+      techStack: ['Javascript', 'React', 'NPM'],
+      tags: ['NPM']
+    },
+    {
+      name: 'Chrome插件',
+      description:
+        'chrome插件集合.',
+      link: { href: '//chromewebstore.google.com/search/sr7?hl=zh-CN&authuser=0', label: 'chromewebstore.google.com' },
+      // logo: '/images/icon/jishiicon.ico',
+      category: ['Tools'],
+      techStack: ['Javascript', 'React'],
+      tags: ['Chrome', '插件']
     },
     {
       name: '即时设计插件',
@@ -57,36 +89,8 @@ export type ProjectItemType = {
       techStack: ['Javascript', 'React'],
       tags: ['Design']
     },
-    {
-      name: 'Sparkle Easy',
-      description:
-        '获取Macos更新框架Sparkle基本签名信息',
-      link: { href: '//sp.xujingyichang.top', label: 'Sparkle Easy' },
-      logo: '/images/icon/sparkleicon.png',
-      category: ['Mac'],
-      techStack: ['Electron', 'Node'],
-      tags: ['Sparkle', 'Tools']
-    },
-    {
-      name: 'Video Zoom',
-      description:
-        '视频编辑、缩放指定区域',
-      link: { href: ' //capcut.xujingyichang.top/', label: 'Video Zoom' },
-      logo: '/images/icon/capcut.png',
-      category: ['Web'],
-      techStack: ['React', 'Canvas', 'Video'],
-      tags: ['Video', 'Capcut', 'Tools']
-    },
-    {
-      name: 'Flow Auto',
-      description:
-        '可视化的chrome浏览器自动化工具',
-      link: { href: '//flowaoto.xujingyichang.top', label: 'Flow Auto' },
-      logo: '/images/icon/auto.png',
-      category: ['Web'],
-      techStack: ['React', 'Electron', 'Flow'],
-      tags: ['Flow', 'Auto', 'Tools']
-    },
+
+
     {
       name: '放大镜录屏',
       description:
@@ -97,17 +101,20 @@ export type ProjectItemType = {
       techStack: ['Javascript', 'Chrome', 'React'],
       tags: ['录屏', '插件']
     },
-   
+
+    
     {
-      name: 'Chrome插件',
+      name: 'ReFormX',
       description:
-        'chrome插件集合.',
-      link: { href: '//chromewebstore.google.com/search/sr7?hl=zh-CN&authuser=0', label: 'chromewebstore.google.com' },
-      // logo: '/images/icon/jishiicon.ico',
-      category: ['Tools'],
-      techStack: ['Javascript', 'React'],
-      tags: ['Chrome', '插件']
+        'ReFormX 是一个基于 React 和 Ant Design 的动态表单解决方案，通过简单的配置即可生成功能强大的表单。',
+      link: { href: 'https://reformx.xujingyichang.top/', label: 'ReFormX' },
+      logo: '/images/icon/reformx.png',
+      category: ['Npm'],
+      techStack: ['react', 'antd'],
+      tags: ['动态表单']
     },
+
+ 
     
     {
       name: '情绪宣泄瓶',
@@ -128,6 +135,26 @@ export type ProjectItemType = {
       category: ['微信小程序'],
       techStack: ['微信小程序'],
       tags: ['助手', '有趣']
+    },
+    {
+      name: 'Video Zoom',
+      description:
+        '视频编辑、缩放指定区域',
+      link: { href: ' //capcut.xujingyichang.top/', label: 'Video Zoom' },
+      logo: '/images/icon/capcut.png',
+      category: ['Web'],
+      techStack: ['React', 'Canvas', 'Video'],
+      tags: ['Video', 'Capcut', 'Tools']
+    },
+    {
+      name: 'Sparkle Easy',
+      description:
+        '获取Macos更新框架Sparkle基本签名信息',
+      link: { href: '//sp.xujingyichang.top', label: 'Sparkle Easy' },
+      logo: '/images/icon/sparkleicon.png',
+      category: ['Mac'],
+      techStack: ['Electron', 'Node'],
+      tags: ['Sparkle', 'Tools']
     },
    
     
