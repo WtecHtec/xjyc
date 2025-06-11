@@ -52,7 +52,7 @@ export type ProjectItemType = {
       name: '生成二维码',
       description:
         '生成二维码,支持多种样式\\注入HTML\\背景图片\\文案',
-      link: { href: '//qrcode.xujingyichang.top/', label: 'qrcode' },
+      link: { href: '//xujingyichang.top/', label: 'qrcode' },
       logo: '/images/icon/qrcode.png',
       category: ['Web'],
       techStack: ['React', 'qrcode', 'Flow'],
