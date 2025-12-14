@@ -19,10 +19,21 @@ export type ProjectItemType = {
   // projects 
   export const projects: Array<ProjectItemType> = [
     {
+      name: 'Pass Scan',
+      description:
+        'AI 简历分析助手',
+      link: { href: '//xujingyichang.top', label: 'Pass Scan' },
+      logo: '/images/icon/passscan.png',
+      category: ['Web'],
+      techStack: ['Javascript', 'React'],
+      tags: ['简历', 'LLM']
+    },
+    {
       name: 'WhisperKeyboard',
       description:
         '一款基于Whisper的Ai语音输入法',
       link: { href: '//whisperkeyboard.app', label: 'whisperkeyboard' },
+     
       category: ['Mac'],
       techStack: ['Swift'],
       tags: ['Whisper', 'Ai语音']
