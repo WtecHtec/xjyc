@@ -19,6 +19,16 @@ export type ProjectItemType = {
   // projects 
   export const projects: Array<ProjectItemType> = [
     {
+      name: 'SnapWrite',
+      description:
+        'SnapWrite-让微信公众号排版更逊送',
+      link: { href: 'https://snapwrite.xujingyichang.top/', label: 'SnapWrite' },
+      logo: '/images/icon/snapwrite.png',
+      category: ['Web'],
+      techStack: ['Javascript', 'React'],
+      tags: ['微信公众号', '排版', '微信公众号排版']
+    },
+    {
       name: 'WordMoment',
       description:
         '词刻(WordMoment)-让记单词学习更有趣(放弃不难，但坚持一定很酷。)',
