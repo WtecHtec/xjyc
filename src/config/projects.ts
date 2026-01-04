@@ -23,7 +23,7 @@ export type ProjectItemType = {
       description:
         '词刻(WordMoment)-让记单词学习更有趣(放弃不难，但坚持一定很酷。)',
       link: { href: '//wordmoment.xujingyichang.top', label: 'WordMoment' },
-      logo: '/images/icon/passscan.png',
+      logo: '/images/icon/wordmoment.png',
       category: ['Web'],
       techStack: ['Javascript', 'React'],
       tags: ['英语单词', '英语4级', '词汇']
