@@ -210,9 +210,17 @@ export type ProjectItemType = {
       // gitStars: 1,
       // gitForks: 1
     },
+        {
+      name: 'electron-jest',
+      description:
+        '可视化操作浏览器编排工作流程的桌面应用',
+      link: { href: '//github.com/WtecHtec/electron-jest', label: 'electron-jest' },
+      // gitStars: 1,
+      // gitForks: 1
+    },
     {
       name: 'WorkNotes',
-      description: '工作笔记开源库,包含Java\\Golang\\Node\\Swfit工具类',
+      description: '工作笔记开源库,包含Java\\Golang\\Node\\Swfit\\WEB工具类',
       link: { href: '//github.com/WtecHtec/WorkNotes', label: 'WorkNotes' },
       // gitStars: 1,
       // gitForks: 1
@@ -222,14 +230,6 @@ export type ProjectItemType = {
       description:
         '学习Golang开发期间折腾的微信自动化桌面应用[wails框架]',
       link: { href: '//github.com/WtecHtec/pcapp-go-wails-react-ts', label: 'pcapp-go-wails-react-ts' },
-      // gitStars: 1,
-      // gitForks: 1
-    },
-    {
-      name: 'electron-jest',
-      description:
-        '可视化操作浏览器编排工作流程的桌面应用',
-      link: { href: '//github.com/WtecHtec/electron-jest', label: 'electron-jest' },
       // gitStars: 1,
       // gitForks: 1
     },
@@ -249,20 +249,20 @@ export type ProjectItemType = {
     //   // gitStars: 1,
     //   // gitForks: 1
     // },
-    {
-      name: 'NanoAutoWeb',
-      description:
-        '探索LLM操作系统的应用',
-      link: { href: '//github.com/WtecHtec/NanoAutoWeb', label: 'NanoAutoWeb' },
-      // gitStars: 1,
-      // gitForks: 1
-    },
-    {
-      name: 'electron-react-record',
-      description:
-        '视角跟随鼠标移动、放大点击区域的录制应用',
-      link: { href: '//github.com/WtecHtec/electron-react-record', label: 'electron-react-record' },
-      // gitStars: 1
-    },
+    // {
+    //   name: 'NanoAutoWeb',
+    //   description:
+    //     '探索LLM操作系统的应用',
+    //   link: { href: '//github.com/WtecHtec/NanoAutoWeb', label: 'NanoAutoWeb' },
+    //   // gitStars: 1,
+    //   // gitForks: 1
+    // },
+    // {
+    //   name: 'electron-react-record',
+    //   description:
+    //     '视角跟随鼠标移动、放大点击区域的录制应用',
+    //   link: { href: '//github.com/WtecHtec/electron-react-record', label: 'electron-react-record' },
+    //   // gitStars: 1
+    // },
   ]
   
