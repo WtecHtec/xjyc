@@ -8,8 +8,8 @@ export * from './activity'
 
 // personal info
 export const name = '虚惊一场。'
-export const headline = '主要写前端，偶尔也会摸一摸其他端的开发者。'
-export const introduction = '对我来说，代码不仅是工具，更是一种语言——用它来表达、连接、构建、实验，不断把有趣的点子带进真实世界。 '
+export const headline = '一个把想法直接变成产品的全栈开发者。'
+export const introduction = '从前端到 iOS、macOS、Chrome 插件，我不等需求，我发现问题，然后自己解决它。'
 export const email = 'wtechtec@gmail.com'
 export const githubUsername = 'wtechtec'
 
