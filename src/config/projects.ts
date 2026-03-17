@@ -28,16 +28,16 @@ export type ProjectItemType = {
       techStack: ['Javascript', 'React'],
       tags: ['微信公众号', '排版', '微信公众号排版']
     },
-    {
-      name: 'WordMoment',
-      description:
-        '词刻(WordMoment)-让记单词学习更有趣(放弃不难，但坚持一定很酷。)',
-      link: { href: '//wordmoment.xujingyichang.top', label: 'WordMoment' },
-      logo: '/images/icon/wordmoment.png',
-      category: ['Web'],
-      techStack: ['Javascript', 'React'],
-      tags: ['英语单词', '英语4级', '词汇']
-    },
+    // {
+    //   name: 'WordMoment',
+    //   description:
+    //     '词刻(WordMoment)-让记单词学习更有趣(放弃不难，但坚持一定很酷。)',
+    //   link: { href: '//wordmoment.xujingyichang.top', label: 'WordMoment' },
+    //   logo: '/images/icon/wordmoment.png',
+    //   category: ['Web'],
+    //   techStack: ['Javascript', 'React'],
+    //   tags: ['英语单词', '英语4级', '词汇']
+    // },
     {
       name: 'Pass Scan',
       description:
@@ -58,16 +58,7 @@ export type ProjectItemType = {
       techStack: ['Swift'],
       tags: ['Whisper', 'Ai语音']
     },
-    {
-      name: 'Switch Mate Pro',
-      description:
-        '管理Mac输入法的应用',
-      link: { href: '//apps.apple.com/us/app/switch-mate-pro/id6723865383', label: 'Switch Mate Pro' },
-      logo: '/images/icon/switchmetaicon.png',
-      category: ['Mac'],
-      techStack: ['Swift'],
-      tags: ['输入法', '自动切换']
-    },
+  
     {
       name: 'Flow Auto',
       description:
@@ -78,17 +69,57 @@ export type ProjectItemType = {
       techStack: ['React', 'Electron', 'Flow'],
       tags: ['Flow', 'Auto', 'Tools']
     },
-
-    {
-      name: '生成二维码',
+   {
+      name: '放大镜录屏',
       description:
-        '生成二维码,支持多种样式\\注入HTML\\背景图片\\文案',
-      link: { href: '//xujingyichang.top/', label: 'qrcode' },
-      logo: '/images/icon/qrcode.png',
-      category: ['Web'],
-      techStack: ['React', 'qrcode', 'Flow'],
-      tags: ['QR', 'Tools']
+        '可以设置放大录屏区域的chrome录屏插件.',
+      link: { href: '//chromewebstore.google.com/detail/%E6%94%BE%E5%A4%A7%E9%95%9C%E5%BD%95%E5%B1%8F/oamckfgecgfenpchklfhelhnngmhdnma?authuser=0&hl=zh-CN', label: 'chrome' },
+      logo: '/images/icon/fangdaicon.png',
+      category: ['Tools'],
+      techStack: ['Javascript', 'Chrome', 'React'],
+      tags: ['录屏', '插件']
     },
+  {
+      name: 'Switch Mate Pro',
+      description:
+        '管理Mac输入法的应用',
+      link: { href: '//apps.apple.com/us/app/switch-mate-pro/id6723865383', label: 'Switch Mate Pro' },
+      logo: '/images/icon/switchmetaicon.png',
+      category: ['Mac'],
+      techStack: ['Swift'],
+      tags: ['输入法', '自动切换']
+    },
+    {
+      name: 'Sparkle Easy',
+      description:
+        '获取Macos更新框架Sparkle基本签名信息',
+      link: { href: '//sp.xujingyichang.top', label: 'Sparkle Easy' },
+      logo: '/images/icon/sparkleicon.png',
+      category: ['Mac'],
+      techStack: ['Electron', 'Node'],
+      tags: ['Sparkle', 'Tools']
+    },
+    
+    {
+      name: '情绪宣泄瓶',
+      description:
+        '只是一款听森林声音的微信小程序',
+      link: { href: '/images/icon/wx_qr_qingxu.jpg', label: '情绪宣泄瓶' },
+      logo: '/images/icon/qingxuicon.png',
+      category: ['微信小程序'],
+      techStack: ['微信小程序'],
+      tags: ['情绪', '休息']
+    },
+    // {
+    //   name: '生成二维码',
+    //   description:
+    //     '生成二维码,支持多种样式\\注入HTML\\背景图片\\文案',
+    //   link: { href: '//xujingyichang.top/', label: 'qrcode' },
+    //   logo: '/images/icon/qrcode.png',
+    //   category: ['Web'],
+    //   techStack: ['React', 'qrcode', 'Flow'],
+    //   tags: ['QR', 'Tools']
+    // },
   
     {
       name: 'NPM包',
@@ -122,71 +153,40 @@ export type ProjectItemType = {
     },
 
 
-    {
-      name: '放大镜录屏',
-      description:
-        '可以设置放大录屏区域的chrome录屏插件.',
-      link: { href: '//chromewebstore.google.com/detail/%E6%94%BE%E5%A4%A7%E9%95%9C%E5%BD%95%E5%B1%8F/oamckfgecgfenpchklfhelhnngmhdnma?authuser=0&hl=zh-CN', label: 'chrome' },
-      logo: '/images/icon/fangdaicon.png',
-      category: ['Tools'],
-      techStack: ['Javascript', 'Chrome', 'React'],
-      tags: ['录屏', '插件']
-    },
-
     
-    {
-      name: 'ReFormX',
-      description:
-        'ReFormX 是一个基于 React 和 Ant Design 的动态表单解决方案，通过简单的配置即可生成功能强大的表单。',
-      link: { href: 'https://reformx.xujingyichang.top/', label: 'ReFormX' },
-      logo: '/images/icon/reformx.png',
-      category: ['Npm'],
-      techStack: ['react', 'antd'],
-      tags: ['动态表单']
-    },
+    // {
+    //   name: 'ReFormX',
+    //   description:
+    //     'ReFormX 是一个基于 React 和 Ant Design 的动态表单解决方案，通过简单的配置即可生成功能强大的表单。',
+    //   link: { href: 'https://reformx.xujingyichang.top/', label: 'ReFormX' },
+    //   logo: '/images/icon/reformx.png',
+    //   category: ['Npm'],
+    //   techStack: ['react', 'antd'],
+    //   tags: ['动态表单']
+    // },
 
- 
-    
-    {
-      name: '情绪宣泄瓶',
-      description:
-        '只是一款听森林声音的微信小程序',
-      link: { href: '/images/icon/wx_qr_qingxu.jpg', label: '情绪宣泄瓶' },
-      logo: '/images/icon/qingxuicon.png',
-      category: ['微信小程序'],
-      techStack: ['微信小程序'],
-      tags: ['情绪', '休息']
-    },
-    {
-      name: '随便用用Lite',
-      description:
-        '收集一些有趣或实用工具的微信小程序',
-      link: { href: '/images/icon/wx_qr_suibian.jpg', label: '随便用用Lite' },
-      logo: '/images/icon/suibianicon.png',
-      category: ['微信小程序'],
-      techStack: ['微信小程序'],
-      tags: ['助手', '有趣']
-    },
-    {
-      name: 'Video Zoom',
-      description:
-        '视频编辑、缩放指定区域',
-      link: { href: ' //capcut.xujingyichang.top/', label: 'Video Zoom' },
-      logo: '/images/icon/capcut.png',
-      category: ['Web'],
-      techStack: ['React', 'Canvas', 'Video'],
-      tags: ['Video', 'Capcut', 'Tools']
-    },
-    {
-      name: 'Sparkle Easy',
-      description:
-        '获取Macos更新框架Sparkle基本签名信息',
-      link: { href: '//sp.xujingyichang.top', label: 'Sparkle Easy' },
-      logo: '/images/icon/sparkleicon.png',
-      category: ['Mac'],
-      techStack: ['Electron', 'Node'],
-      tags: ['Sparkle', 'Tools']
-    },
+  
+    // {
+    //   name: '随便用用Lite',
+    //   description:
+    //     '收集一些有趣或实用工具的微信小程序',
+    //   link: { href: '/images/icon/wx_qr_suibian.jpg', label: '随便用用Lite' },
+    //   logo: '/images/icon/suibianicon.png',
+    //   category: ['微信小程序'],
+    //   techStack: ['微信小程序'],
+    //   tags: ['助手', '有趣']
+    // },
+    // {
+    //   name: 'Video Zoom',
+    //   description:
+    //     '视频编辑、缩放指定区域',
+    //   link: { href: ' //capcut.xujingyichang.top/', label: 'Video Zoom' },
+    //   logo: '/images/icon/capcut.png',
+    //   category: ['Web'],
+    //   techStack: ['React', 'Canvas', 'Video'],
+    //   tags: ['Video', 'Capcut', 'Tools']
+    // },
+
    
     
     // {
@@ -202,6 +202,14 @@ export type ProjectItemType = {
   ]
   
   export const githubProjects: Array<ProjectItemType> = [
+          {
+      name: 'Clip2Post',
+      description:
+        '整合了 ASR（语音识别）、LLM（大语言模型）、TTS(文字转音频)、FFmpeg(视频处理)处理长视频转短视频。',
+      link: { href: '//github.com/WtecHtec/VideoSpeakMacOs', label: 'VideoSpeakMacOs' },
+      // gitStars: 1,
+      // gitForks: 1
+    },
     {
       name: 'WorkNotes',
       description: '工作笔记开源库,包含Java\\Golang\\Node\\Swfit工具类',
@@ -233,14 +241,14 @@ export type ProjectItemType = {
       // gitStars: 1,
       // gitForks: 1
     },
-    {
-      name: 'VideoSpeakMacOs',
-      description:
-        '读取视频帧获取视频字幕、拼接视频字幕的Macos应用',
-      link: { href: '//github.com/WtecHtec/VideoSpeakMacOs', label: 'VideoSpeakMacOs' },
-      // gitStars: 1,
-      // gitForks: 1
-    },
+    // {
+    //   name: 'VideoSpeakMacOs',
+    //   description:
+    //     '读取视频帧获取视频字幕、拼接视频字幕的Macos应用',
+    //   link: { href: '//github.com/WtecHtec/VideoSpeakMacOs', label: 'VideoSpeakMacOs' },
+    //   // gitStars: 1,
+    //   // gitForks: 1
+    // },
     {
       name: 'NanoAutoWeb',
       description:
