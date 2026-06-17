@@ -13,8 +13,8 @@ export function ThemeToggle() {
     // 直接在light和dark之间切换，跳过system
     const newTheme = 'dark'
     // console.log('切换主题:', newTheme)
-    // setTheme(newTheme)
-    window.open('//blog.xujingyichang.top', '_banlk')
+    setTheme(newTheme)
+   // window.open('//blogs.xujingyichang.top', '_banlk')
   }
 
   return (
